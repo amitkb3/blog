@@ -1,13 +1,13 @@
 import React from 'react';
 
-class App extends React.Component {
-  render() {
-    return(
+import PostList from './PostList';
+
+const App = () => {
+  return(
       <div className="ui container">
-        App
+        <PostList />
       </div>
-    );
-  }
-}
+    );  
+};
 
 export default App;
